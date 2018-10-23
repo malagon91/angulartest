@@ -45,6 +45,7 @@ export class CourseListComponent implements OnInit {
     // store.subscribe(() =>{
     //   this.updateFromState();
     // })
+    this.courseAction.getCourses();
     componentHandler.upgradeDom();
   }
 }
